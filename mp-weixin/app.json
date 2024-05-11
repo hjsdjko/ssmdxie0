@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/gonggaotongzhi/list",
+    "pages/gonggaotongzhi/add-or-update",
+    "pages/gonggaotongzhi/detail",
+    "pages/zixiushi/list",
+    "pages/zixiushi/add-or-update",
+    "pages/zixiushi/detail",
+    "pages/zuoweiyuyue/list",
+    "pages/zuoweiyuyue/add-or-update",
+    "pages/zuoweiyuyue/detail",
+    "pages/yuyuequxiao/list",
+    "pages/yuyuequxiao/add-or-update",
+    "pages/yuyuequxiao/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "自修室预约系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3AEBF1",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gonggaotongzhi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "公告通知"
+      },
+      {
+        "pagePath": "pages/zixiushi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "自修室"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
